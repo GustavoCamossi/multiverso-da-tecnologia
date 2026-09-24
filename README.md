@@ -4,7 +4,7 @@ Jogo interativo do estande de Inteligência Artificial da **Unimar Aberta**.
 
 O visitante é recebido pelo Mestre dos Portais, abre quatro portais desenhando um círculo (Agro, Saúde, Empreendedorismo e Tecnologia), conquista um artefato em cada mundo, descobre seu perfil tecnológico e conhece o curso de Inteligência Artificial da Unimar.
 
-## Como usar no estande
+## Como usar 
 
 1. Abra `index.html` no Google Chrome (funciona sem internet) ou acesse o endereço do GitHub Pages.
 2. Clique em **Tela cheia** na barra inferior.
