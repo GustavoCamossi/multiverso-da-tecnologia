@@ -11,7 +11,7 @@ O visitante é recebido pelo Mestre dos Portais, abre quatro portais desenhando 
 | Empreendedorismo | Arrastar mensagens de clientes para o setor certo | Treinamento por exemplos (classificação) |
 | Tecnologia | Memorizar e repetir a sequência do firewall | Reconhecimento de padrões em segurança |
 
-A narração usa áudios gerados com voz neural (Piper, voz pt_BR "faber"), embutidos no próprio arquivo.
+A narração do Mestre dos Portais usa áudios gerados com voz neural (Kokoro, voz pt-BR "pm_alex", com tratamento de voz de mago), embutidos no próprio arquivo.
 
 ## Como usar no estande
 
@@ -20,6 +20,19 @@ A narração usa áudios gerados com voz neural (Piper, voz pt_BR "faber"), embu
 3. Use fone ou caixa de som: o jogo tem trilha, efeitos e narração.
 
 Controles: mouse ou toque; no teclado, números/letras escolhem, **Enter** avança, **Esc** recomeça. Sem interação por 60 s, o jogo volta ao início.
+
+## Vídeos
+
+Os vídeos do mundo real ficam na pasta `videos/` (um `.mp4` e um `.webm` por portal, com o mesmo nome). Mantenha a pasta junto do `index.html`: assim o vídeo toca direto no jogo, inclusive sem internet.
+
+Fontes dos vídeos (uso educativo no evento):
+
+| Portal | Vídeo | Fonte |
+|---|---|---|
+| Agro | Arbus 4000 JAV, pulverização autônoma | Jacto |
+| Saúde | IA detecta e perfila câncer de mama (A.C. Camargo) | Veja Saúde |
+| Empreendedorismo | Amazon Go, a loja sem caixa | Amazon |
+| Tecnologia | IA em gastronomia, edição, jornalismo e medicina (trecho editado) | TecMundo |
 
 ## Como editar
 
