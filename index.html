@@ -220,14 +220,14 @@
   .dica { font: 400 12px var(--mono); letter-spacing: .12em; color: var(--muted); text-transform: uppercase; }
   /* Agro: drone */
   .arena-drone { cursor: none; }
-  .drone { position: absolute; width: clamp(60px, 7vw, 86px); aspect-ratio: 1; transform: translate(-50%, -50%); color: var(--pc); pointer-events: none; z-index: 2; filter: drop-shadow(0 0 12px var(--pc)); }
+  .drone { position: absolute; width: clamp(60px, 7vw, 86px); aspect-ratio: 1; translate: -50% -50%; color: var(--pc); pointer-events: none; z-index: 2; filter: drop-shadow(0 0 12px var(--pc)); }
   .drone svg { width: 100%; height: 100%; animation: helice .2s linear infinite; }
   @keyframes helice { 50% { transform: scale(1.03); } }
-  .scan-ring { position: absolute; left: 50%; top: 50%; width: 340%; aspect-ratio: 1; transform: translate(-50%, -50%); border-radius: 50%;
+  .scan-ring { position: absolute; left: 50%; top: 50%; width: 340%; aspect-ratio: 1; translate: -50% -50%; border-radius: 50%;
     border: 2px dashed color-mix(in srgb, var(--pc) 70%, transparent); background: radial-gradient(circle, color-mix(in srgb, var(--pc) 16%, transparent), transparent 70%); animation: spin 5s linear infinite; }
-  .praga { position: absolute; width: clamp(40px, 5vw, 60px); aspect-ratio: 1; transform: translate(-50%, -50%); color: #ff6b6b; opacity: .12; transition: transform .3s; }
+  .praga { position: absolute; width: clamp(40px, 5vw, 60px); aspect-ratio: 1; translate: -50% -50%; color: #ff6b6b; opacity: .12; transition: transform .3s; }
   .praga svg { width: 100%; height: 100%; }
-  .praga.achou { opacity: 1 !important; color: var(--pc); transform: translate(-50%, -50%) scale(1.25); filter: drop-shadow(0 0 12px var(--pc)); }
+  .praga.achou { opacity: 1 !important; color: var(--pc); transform: scale(1.25); filter: drop-shadow(0 0 12px var(--pc)); }
   .praga.achou::after { content: "✓"; position: absolute; right: -8px; top: -8px; font: 700 18px var(--body); color: var(--rune); }
   /* Saúde: ritmo */
   .arena-ritmo { cursor: pointer; }
